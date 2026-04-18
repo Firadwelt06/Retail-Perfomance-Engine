@@ -238,3 +238,8 @@ Dataset sourced from Kaggle.
 This project is for educational and portfolio purposes only.
 
 The dataset is subject to its original license (e.g., CC BY-NC 4.0), and any commercial use must comply with those terms.
+
+## 🌐 Live Demo
+
+[Click here to view the app]
+(https://retail-perfomance-engine-enwzeujoemdsiaq2btuzdg.streamlit.app/)
