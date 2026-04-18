@@ -55,24 +55,27 @@ Provides actionable business strategies per store.
 
 ## 🧠 Tech Stack
 
-- Python
+- Python 3.8+
 - Pandas / NumPy
 - Scikit-learn
-- Matplotlib
+- Matplotlib / Seaborn
 - Streamlit
 - Pickle (model serialization)
 
 ---
 
 ## 📁 Project Structure
+
+```
 Retail-Performance-Engine/
 │
-├── app/ # Streamlit dashboard
-├── data/ # Raw dataset
-├── notebooks/ # EDA + feature engineering
-├── src/ # Trained ML model
-├── README.md
-
+├── app/              # Streamlit dashboard application
+├── data/             # Raw retail dataset
+├── notebooks/        # EDA + feature engineering notebooks
+├── src/              # Trained ML model and utilities
+├── requirements.txt  # Python dependencies
+└── README.md         # Documentation
+```
 
 ---
 
@@ -100,55 +103,124 @@ The system provides:
 
 ---
 
+## 📋 Dataset Description
+
+The retail dataset includes:
+- **Store Metrics**: Store ID, area, type, location
+- **Sales Data**: Actual sales, customer traffic, transactions
+- **Inventory**: Product availability, item count
+- **Performance**: Historical performance indicators
+
+---
+
 ## ⚙️ How to Run Locally
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/your-username/retail-performance-engine.git
-cd retail-performance-engine
+git clone https://github.com/Firadwelt06/Retail-Perfomance-Engine.git
+cd Retail-Perfomance-Engine
+```
 
----
+### 2. Create virtual environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-### 2. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
----
-
-### 3. Run streamlit app
+### 4. Run the Streamlit app
+```bash
 streamlit run app/app.py
+```
+
+The dashboard will open at `http://localhost:8501`
 
 ---
 
 ## 🎯 Business Value
+
 This system helps retail decision-makers:
-Identify revenue leakage points
-Improve store efficiency
-Optimize inventory allocation
-Prioritize store interventions
-Make data-driven operational decisions
+- Identify revenue leakage points
+- Improve store efficiency
+- Optimize inventory allocation
+- Prioritize store interventions
+- Make data-driven operational decisions
 
 ---
 
 ## 🔥 Key Insight
-Not all high-traffic stores are profitable.
-This project reveals hidden inefficiencies that traditional reporting systems miss.
+
+Not all high-traffic stores are profitable. This project reveals hidden inefficiencies that traditional reporting systems miss.
 
 ---
 
-## 📌 Future Improvements
-Add time-series sales forecasting
-Segment stores by region/type
-Add cost vs profit analysis
-Deploy on cloud (Streamlit Cloud / AWS)
-Add automated reporting PDFs
+## 📈 Model Performance
+
+- **Prediction Accuracy**: [Add your model metrics]
+- **Feature Importance**: Store area, customer traffic, and product availability are top drivers
+- **Business Impact**: [Add quantified improvements]
+
+---
+
+## 🚀 Future Improvements
+
+- Add time-series sales forecasting
+- Segment stores by region/type
+- Add cost vs profit analysis
+- Deploy on cloud (Streamlit Cloud / AWS)
+- Add automated reporting PDFs
+- Implement A/B testing framework
+- Add real-time data pipeline integration
+
+---
+
+## 📝 Usage Example
+
+```python
+from src.model import RetailPerformanceModel
+
+# Load trained model
+model = RetailPerformanceModel()
+
+# Make prediction
+prediction = model.predict(
+    store_area=5000,
+    customer_traffic=2000,
+    product_availability=0.95
+)
+
+# Get diagnosis and recommendations
+diagnosis = model.diagnose(prediction, actual_sales=95000)
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request with:
+- Bug fixes
+- Feature enhancements
+- Documentation improvements
+- Dataset updates
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
 ## 👤 Author
 
-Built as a portfolio project demonstrating:
+**Built as a portfolio project demonstrating:**
+- End-to-end data science workflow
+- Machine learning application in retail analytics
+- Business-focused data storytelling
+- Production-ready dashboard development
 
-End-to-end data science workflow
-Machine learning application in retail analytics
-Business-focused data storytelling
+For questions or feedback, feel free to open an issue or reach out!
