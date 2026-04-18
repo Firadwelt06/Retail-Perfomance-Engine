@@ -111,8 +111,10 @@ cd retail-performance-engine
 ```bash
 pip install -r requirements.txt
 
-### 2. Run streamlit app
+### 3. Run streamlit app
 streamlit run app/app.py
+
+---
 
 🎯 Business Value
 
