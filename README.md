@@ -160,9 +160,13 @@ Not all high-traffic stores are profitable. This project reveals hidden ineffici
 
 ## 📈 Model Performance
 
-- **Prediction Accuracy**: [Add your model metrics]
+- **Prediction Accuracy**: MAE: 14613.337177672394     R2: -0.01226925969065995
 - **Feature Importance**: Store area, customer traffic, and product availability are top drivers
-- **Business Impact**: [Add quantified improvements]
+- **Business Impact**: This system enables retail managers to:
+- Identify underperforming stores in real time
+- Detect root causes of inefficiency (conversion, space, inventory)
+- Prioritize interventions based on performance gap severity
+- Reduce revenue leakage through targeted improvements
 
 ---
 
