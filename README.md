@@ -104,62 +104,51 @@ The system provides:
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/your-username/retail-performance-engine.git
+`git clone https://github.com/your-username/retail-performance-engine.git
 cd retail-performance-engine
+`
+---
 
 ### 2. Install dependencies
 ```bash
-pip install -r requirements.txt
-
-### 3. Run streamlit app
-streamlit run app/app.py
+`pip install -r requirements.txt`
 
 ---
 
-🎯 Business Value
+### 3. Run streamlit app
+`streamlit run app/app.py`
 
+---
+
+## 🎯 Business Value
 This system helps retail decision-makers:
-
 Identify revenue leakage points
 Improve store efficiency
 Optimize inventory allocation
 Prioritize store interventions
 Make data-driven operational decisions
-🔥 Key Insight
 
+---
+
+## 🔥 Key Insight
 Not all high-traffic stores are profitable.
-
 This project reveals hidden inefficiencies that traditional reporting systems miss.
 
-📌 Future Improvements
+---
+
+## 📌 Future Improvements
 Add time-series sales forecasting
 Segment stores by region/type
 Add cost vs profit analysis
 Deploy on cloud (Streamlit Cloud / AWS)
 Add automated reporting PDFs
-👤 Author
+
+---
+
+## 👤 Author
 
 Built as a portfolio project demonstrating:
 
 End-to-end data science workflow
 Machine learning application in retail analytics
 Business-focused data storytelling
-
----
-
-# 🔥 Why this README works (important)
-
-It makes your project look like:
-
-- a **business intelligence tool**
-- not a classroom assignment
-- not a notebook dump
-
-It emphasizes:
-- decisions
-- impact
-- structure
-- workflow
-
----
-## 📊 Dashboard Output
