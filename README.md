@@ -228,3 +228,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Production-ready dashboard development
 
 For questions or feedback, feel free to open an issue or reach out!
+
+---
+
+## 📜 Data Source & License
+
+Dataset sourced from Kaggle.
+
+This project is for educational and portfolio purposes only.
+
+The dataset is subject to its original license (e.g., CC BY-NC 4.0), and any commercial use must comply with those terms.
